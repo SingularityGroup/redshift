@@ -7,13 +7,11 @@ Provide an interaction layer with aws redshift-data.
 add deps
 
 ```edn
-
 org.sg.redshift/redshift {:git/url "git@github.com:SingularityGroup/redshift.git" :sha "ca0cdb3a9cb5291cbf7a57758cfcab583a6aeacf"}
 ```
 
 
 ```clojure
-
 (defn
   redshift-data
   []
@@ -21,12 +19,11 @@ org.sg.redshift/redshift {:git/url "git@github.com:SingularityGroup/redshift.git
    {:region "us-east-1"
     :api :redshift-data}))
 
-
 (def
-    db-opts
-    {:Database ..
-     :ClusterIdentifier ..
-     :DbUser ...})
+  db-opts
+  {:Database ".."
+   :ClusterIdentifier ".."
+   :DbUser ".."})
 
 (nom/nom->>
  (org.sg.redshift/query!
