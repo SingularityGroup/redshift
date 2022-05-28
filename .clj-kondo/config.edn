@@ -1,0 +1,1 @@
+{:lint-as {de.otto.nom.core/let-nom> clojure.core/let}}

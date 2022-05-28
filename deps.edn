@@ -1,0 +1,10 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        com.cognitect.aws/api {:mvn/version "0.8.539"},
+        com.cognitect.aws/endpoints {:mvn/version "1.1.12.206"},
+        com.cognitect.aws/redshift {:mvn/version "822.2.1109.0",
+                                    :aws/serviceFullName "Amazon Redshift"},
+        com.cognitect.aws/redshift-data {:mvn/version "822.2.1109.0",
+                                         :aws/serviceFullName "Redshift Data API Service"},
+        de.otto/nom {:mvn/version "0.1.0"}
+        org.clojure/tools.logging {:mvn/version "1.2.4"}}}
