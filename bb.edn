@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps
+ {de.otto/nom {:mvn/version "0.1.0"}
+  org.clojure/tools.logging {:mvn/version "1.2.4"}}
+ :pods {org.babashka/aws {:version "0.1.2"}}}

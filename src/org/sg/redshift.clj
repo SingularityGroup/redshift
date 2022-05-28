@@ -5,11 +5,8 @@
      [cognitect.anomalies
       :as-alias
       anom]
-     [cognitect.aws.client.api
-      :as
-      aws]
-     [clojure.tools.logging :as log]
-     [clojure.spec.alpha :as s]))
+     [org.sg.aws.client :as aws]
+     [clojure.tools.logging :as log]))
 
 (defn query [req]
   {:op :ExecuteStatement :request req})
