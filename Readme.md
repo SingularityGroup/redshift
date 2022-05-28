@@ -8,8 +8,7 @@ add deps
 
 ```edn
 
-        org.sg.redshift/redshift {:git/url "git@github.com:SingularityGroup/redshift.git"
-                                    :sha "ca0cdb3a9cb5291cbf7a57758cfcab583a6aeacf"}
+org.sg.redshift/redshift {:git/url "git@github.com:SingularityGroup/redshift.git" :sha "ca0cdb3a9cb5291cbf7a57758cfcab583a6aeacf"}
 ```
 
 
