@@ -5,7 +5,7 @@
      [cognitect.anomalies
       :as-alias
       anom]
-     [org.sg.aws.client :as aws]
+     [org.sg.aws.impl.client :as aws]
      [clojure.tools.logging :as log]))
 
 (defn query [req]
